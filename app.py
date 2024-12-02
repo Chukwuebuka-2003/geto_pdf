@@ -53,4 +53,3 @@ if uploaded_file:
                     st.error(f"Error generating summary: {e}")
     else:
         st.error("Could not extract text from the PDF.")
-]
