@@ -15,7 +15,7 @@ llm = ChatGoogleGenerativeAI(model="gemini-pro", temperature=0.3, google_api_key
 summarization_prompt_template = PromptTemplate(
     input_variables=["text"],
     template=(
-        "Summarize the following text in a clear and concise manner:\n\n"
+        "Rewrite the entire text in a clear and concise manner:\n\n"
         "{text}\n\n"
         "Focus on key points and main ideas."
     ),
